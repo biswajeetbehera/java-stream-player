@@ -123,7 +123,17 @@
 			<artifactId>tritonus-all</artifactId>
 			<version>0.3.7.2</version>
 		</dependency>
-
+		
+		<repository>
+			<id>releases</id>
+			<name>Releases</name>
+			<urlhttp://localhost:8081/repository/maven-releases/</url>
+		</repository>
+	<snapshotRepository>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</repository>
 		<!-- AUDIO EXPERIMENTAL TESTS -->
 		<!-- <dependency> <groupId>com.googlecode.soundlibs</groupId> <artifactId>tritonus-all</artifactId> 
 			<version>0.3.7.2</version> </dependency> -->
